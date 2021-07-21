@@ -1,6 +1,7 @@
-const click = document.querySelector("button");
+const image = document.querySelectorAll("img");
 const x = () => {
     console.log("ok");
 }
-click.addEventListener("click",x
-)
+for (im of image) {
+im.addEventListener("click",x );
+}
