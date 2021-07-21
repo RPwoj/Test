@@ -15,7 +15,7 @@ img {
     border: 1px solid black;
 }
 .active {
-    height: 110%;
+    filter: brightness(120%);
    
     
 }
