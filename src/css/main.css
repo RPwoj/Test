@@ -14,9 +14,24 @@ img {
     width: 100%;
     border: 1px solid black;
     transition: .5s;
+    filter: brightness(50%);
 }
 .active {
     filter: brightness(120%);
    transition: .5s;
+   height: 205px;
     
+}
+nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+
+}
+
+nav p {
+    margin-left: 20px;
 }
