@@ -15,6 +15,10 @@ img {
     border: 1px solid black;
     transition: .5s;
     filter: brightness(50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .active {
     filter: brightness(120%);
@@ -34,4 +38,22 @@ nav {
 
 nav p {
     margin-left: 20px;
+     
+}
+#p1 {
+    background-image: url("/src/img/photo1.jpg");
+    
+}
+p {
+    color: rgb(153, 136, 147);
+    font-size: 250px;
+    font-family: Arial;
+    font-weight: 400;
+}
+#p2 {
+    background-image: url("/src/img/photo2.jpg");
+}
+#p3 {
+    background-image: url("/src/img/photo3.jpg");
+    color: rgb(121, 10, 10);
 }
