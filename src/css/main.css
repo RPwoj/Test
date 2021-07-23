@@ -44,7 +44,7 @@ nav p {
     background-image: url("/src/img/photo1.jpg");
     
 }
-p {
+.photo p {
     color: rgb(153, 136, 147);
     font-size: 250px;
     font-family: Arial;
