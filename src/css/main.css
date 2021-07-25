@@ -1,6 +1,7 @@
 .photos {
     height: 100%;
     width: 100%;
+    margin-top: 50px;
     
 }
 img {
@@ -36,6 +37,7 @@ nav {
     background-color: black;
     color: white;
     font-family: Arial;
+    position: fixed;
 
 }
 
@@ -68,9 +70,17 @@ nav p {
     width: 150px;
 }
 body {
-    background-color:rgb(153, 136, 147)
+    background-color:rgb(153, 136, 147);
+    margin: 0px;
 }
 #kontakt {
     margin-left: 50%;
     margin-top: 10%;
 }
+
+#sections {
+   margin-left: 33%;
+  height: 30%;
+  width: 30%;
+}
+
